@@ -1,10 +1,15 @@
-#include<stdio.h>
-int main(){
-int i,sum;
-for(i=1;i<=10;i++){
-sum += i;
-}
-printf("Sum = %d\n",sum);
-printf("Mean = %.2f\n",(float)sum/10);
-return 0;
+#include <stdio.h>
+
+int main() {
+    int numbers[10], i, sum = 0;
+
+    printf("Enter 10 numbers:\n");
+    for(i = 0; i < 10; i++) {
+        scanf("%d", &numbers[i]);
+        sum += numbers[i];  // adding each number to sum
+    }
+
+    printf("The sum of the 10 numbers is: %d\n", sum);
+
+    return 0;
 }
