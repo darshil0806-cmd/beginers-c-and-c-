@@ -10,3 +10,4 @@ printf("the value of first n natural no. is %d\n",i);
 }
 return 0;
 }
+
