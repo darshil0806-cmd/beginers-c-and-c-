@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int n, i, value, sum = 0;
+    int n, i, value,mean,sum = 0;
 
     printf("Enter how many numbers you want to add: ");
     scanf("%d", &n);
@@ -13,6 +13,6 @@ int main() {
     }
 
     printf("The sum of %d numbers is: %d\n", n, sum);
-
+printf("The mean of %d numbers is: %.2f\n", n, (float)sum / n);
     return 0;
 }
