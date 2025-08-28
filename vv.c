@@ -1,15 +1,32 @@
-#include<stdio.h>
-intmain (){
-    int a,b,c,d;
-    a=0;
-    for(i=0;i<=9;i++){
-        printf("entera randomno");
-        scanf("%d",&b);
-        if(b>a){
-            a=b;
-        }
-        else(b=b)
-    }
-    printf("the largest no. is%d",b);
+int main() {
+    int a, b,c,d, i;
+    a = 0;
+    printf("enter a random no.");
+    scanf("%d",&a);
+c=a;
+d=a;
 
+    for (i = 1; i < 11; i++)
+        {
+        printf("Enter a %d number \n",i);
+        scanf("%d", &b);
+        if (b > c) {
+            c = b;
+        }
+        else if(b<d){
+            d=b;
+        }
+    }
+
+    printf("The largest number is %d\n", c);
+    printf("The smallest number is %d\n", d);
+
+    return 0;
 }
+
+
+
+
+
+
+
