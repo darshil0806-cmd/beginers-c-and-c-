@@ -1,3 +1,4 @@
+// perimeter and area of square
 #include<stdio.h>
 int main()
 {
@@ -18,4 +19,5 @@ int main()
     }
     
 }
+
  
