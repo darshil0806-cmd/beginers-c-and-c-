@@ -1,4 +1,4 @@
-// reverse digits
+// print digits pattern reverse digits
 
 #include <stdio.h>
 
@@ -17,3 +17,4 @@ int main()
 
     return 0;
 }}
+
