@@ -1,3 +1,4 @@
+//addition of 2 integers
 #include<stdio.h>
 int main()
 {
@@ -8,4 +9,5 @@ int main()
     scanf("%d",&b);
     c=a+b;
     printf("the value of c is %d",c);
+
 }
