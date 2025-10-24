@@ -1,8 +1,9 @@
 #include<stdio.h>
 int main(){
-    int n;
-    printf("enter no. of lines : ");
-    scanf("%d",&n);
+    int n,t;
+    printf("enter no. of odd lines : ");
+    scanf("%d",&t);
+    n=(t+1)/2;
     for(int i=1;i<=n;i++){
         for(int j=1;j<=n-i;j++){
             printf(" ");
@@ -27,4 +28,5 @@ int main(){
         printf("\n");
     }
     return 0;
+
 }
